@@ -1,0 +1,12 @@
+
+
+
+http://www.flickr.com/video_download.gne?id=VIDEO_ID
+
+https://www.flickr.com/photos/ARTIST@ID/VIDEO_ID/play/orig/SECRET_ORIG/
+https://www.flickr.com/photos/ARTIST@ID/VIDEO_ID/play/hd/SECRET/
+https://www.flickr.com/photos/ARTIST@ID/VIDEO_ID/play/mobile/SECRET/
+https://www.flickr.com/photos/ARTIST@ID/VIDEO_ID/play/site/SECRET/
+
+
+
