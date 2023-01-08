@@ -1,0 +1,7 @@
+版本 2.0.3.0 [最終版本]：
+
+更新 API Key。
+
+本應用程式不再維護！
+
+原始碼：https://github.com/WeilJimmer/Flickr_Downloader
