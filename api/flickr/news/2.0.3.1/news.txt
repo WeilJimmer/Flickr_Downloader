@@ -1,0 +1,7 @@
+版本 2.0.3.1 [最終版本]：
+
+修復下載時偶爾會無預警終止程式的問題。
+
+本應用程式不再維護！
+
+原始碼：https://github.com/WeilJimmer/Flickr_Downloader
