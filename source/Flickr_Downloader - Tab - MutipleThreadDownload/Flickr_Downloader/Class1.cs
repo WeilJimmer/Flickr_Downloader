@@ -137,17 +137,24 @@ namespace Flickr_Downloader {
             if (this._Request == null) {
                 throw (new InvalidOperationException("Unable to retrieve the status code, maybe you haven't made a request yet."));
             }
-
             try {
-                HttpWebResponse response = base.GetWebResponse(this._Request) as HttpWebResponse;
-                if (response != null) {
-                    result = response.StatusCode;
-                } else {
-                    throw (new InvalidOperationException("Unable to retrieve the status code, maybe you haven't made a request yet."));
+                try {
+                    HttpWebResponse response = base.GetWebResponse(this._Request) as HttpWebResponse;
+                    if (response != null) {
+                        result = response.StatusCode;
+                    } else {
+                        throw (new InvalidOperationException("Unable to retrieve the status code, maybe you haven't made a request yet."));
+                    }
+                } catch (WebException we) {
+                    try {
+                        HttpWebResponse response = (System.Net.HttpWebResponse)we.Response;
+                        result = response.StatusCode;
+                    } catch {
+                        result = HttpStatusCode.ServiceUnavailable;
+                    }
                 }
-            } catch (WebException we) {
-                HttpWebResponse response = (System.Net.HttpWebResponse) we.Response;
-                result = response.StatusCode;
+            } catch {
+                result = HttpStatusCode.ServiceUnavailable;
             }
 
             return result;
