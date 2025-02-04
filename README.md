@@ -3,6 +3,7 @@
 ![GitHub License](https://img.shields.io/github/license/WeilJimmer/Flickr_Downloader)
 ![GitHub Release](https://img.shields.io/github/v/release/WeilJimmer/Flickr_Downloader)
 ![GitHub Repo stars](https://img.shields.io/github/stars/WeilJimmer/Flickr_Downloader)
+![GitHub forks](https://img.shields.io/github/forks/WeilJimmer/Flickr_Downloader)
 
 ### Description
 
