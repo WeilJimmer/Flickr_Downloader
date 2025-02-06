@@ -6,11 +6,12 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/WeilJimmer/Flickr_Downloader)
 ![GitHub forks](https://img.shields.io/github/forks/WeilJimmer/Flickr_Downloader)
 
+> [!IMPORTANT]
+> **THIS PROJECT IS NO LONGER BEING MAINTAINED.**
+
 ### Description
 
 This page is for Flickr Downloader Application which developed by Weil Jimmer ([weils.net](https://weils.net/)).
-
-**THIS PROJECT IS NO LONGER BEING MAINTAINED.**
 
 ### Disclaimer
 
