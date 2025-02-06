@@ -2,6 +2,7 @@
 ![Static Badge](https://img.shields.io/badge/project-deprecated-red)
 ![GitHub License](https://img.shields.io/github/license/WeilJimmer/Flickr_Downloader)
 ![GitHub Release](https://img.shields.io/github/v/release/WeilJimmer/Flickr_Downloader)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/WeilJimmer/Flickr_Downloader/total)
 ![GitHub Repo stars](https://img.shields.io/github/stars/WeilJimmer/Flickr_Downloader)
 ![GitHub forks](https://img.shields.io/github/forks/WeilJimmer/Flickr_Downloader)
 
